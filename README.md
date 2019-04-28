@@ -1,3 +1,1 @@
-# Vermont Table Codebase
-
-October CMS
+# Vermont Table
