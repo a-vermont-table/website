@@ -41,7 +41,7 @@ return [
     |
     */
 
-    'url' => 'brattleborocatering.com',
+    'url' => 'localhost',
 
     /*
     |--------------------------------------------------------------------------
@@ -101,7 +101,7 @@ return [
     |
     */
 
-    'key' => 'BJQui3B8XimNfAgQIgGClofYYF2H54xe',
+    'key' => 'a32lemS5MaX30G1OkhKvNhzUxrSnSkEp',
 
     'cipher' => 'AES-256-CBC',
 

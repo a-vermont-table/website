@@ -54,11 +54,11 @@ return [
 
         'mysql' => [
             'driver'    => 'mysql',
-            'host'      => 'avtable-rds-mysql.ckyzl3ar6hwn.us-east-2.rds.amazonaws.com',
+            'host'      => getenv('DB_HOST', "127.0.0.1"),
             'port'      => 3306,
-            'database'  => 'avtable_october',
-            'username'  => 'vt_table_db_user',
-            'password'  => 'thenosegoes123',
+            'database'  => getenv('DB_DATABASE', 'avtable_october'),
+            'username'  => getenv('DB_USERNAME', 'root'),
+            'password'  => getenv('DB_PASSWORD', 'root'),
             'charset'   => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
             'prefix'    => '',
@@ -66,11 +66,11 @@ return [
 
         'pgsql' => [
             'driver'   => 'pgsql',
-            'host'     => 'localhost',
+            'host'     => '127.0.0.1',
             'port'     => 5432,
-            'database' => 'database',
+            'database' => 'avtable_october',
             'username' => 'root',
-            'password' => '',
+            'password' => 'root',
             'charset'  => 'utf8',
             'prefix'   => '',
             'schema'   => 'public',
