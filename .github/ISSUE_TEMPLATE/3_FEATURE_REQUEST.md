@@ -1,6 +1,6 @@
 ---
 name: "💡 Feature Request"
-about: 'For ideas or feature requests, make a PR or talk to the core members on Slack'
+about: 'When opening a task that has to do with any future features, use this'
 ---
 
-If you would like to propose new features, please make a pull request. Alternatively, you may message the core team on the OctoberCMS Slack.
+Once we have the general template work done, we can begin to add more advanced features and roll them out via deployments. Use this template for those
