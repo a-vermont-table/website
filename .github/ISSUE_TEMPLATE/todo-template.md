@@ -4,6 +4,7 @@ about: Describe the issue
 title: "[TODO - Description of task]"
 labels: task
 assignees: ''
+project: 1
 
 ---
 
